@@ -7,6 +7,6 @@ public class MyFrame
 {
     public static void main(String[] argmnts) throws IOException
     {
-        System.out.println("I dont give a fuck.");
+        System.out.println("I dont give a fuck to anyone.");
     }
 }
