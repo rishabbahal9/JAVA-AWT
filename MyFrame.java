@@ -22,6 +22,14 @@ public class MyFrame extends Frame
     }
     //End Constructor MyFrame()
 
+    public void paint(Graphics g)
+    {
+        this.setBackground(new Color(163,163,163));
+        g.setColor(new Color(0,0,0));
+        g.drawString("Hi! I am Rishab Bahal.",20,60);
+        g.drawString("Hi! I am Rishab Bahal.",20,80);
+
+    }
     public static void main(String[] argmnts) throws IOException
     {
         System.out.println("I dont give a fuck to anyone.");
@@ -30,4 +38,5 @@ public class MyFrame extends Frame
         m.setSize(300,320);
         m.setVisible(true);
     }
+
 }
